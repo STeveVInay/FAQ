@@ -1,0 +1,23 @@
+MAC it is hardedcoded into chip 01:A2:B3:C4:D5:E6
+ARP will help in assigin private ip address in our router 192.168.0.22
+01:A2:B3:C4:D5:E6 --> 192.168.0.22:22
+PORTS 65535
+ftp 20,21
+ssh 22 tcp udp
+telnet 23
+smtp 25 
+dhcp 67,68
+dns 53
+http 80
+
+ip address 0-255			private				
+Class A 0.0.0.0 - 127.255.255.255 	10.0.0.0 10.255.255.255 	127.0.0.1 loopback
+Class B 128.0.0.0 – 191.255.255.255	172.16.0.0 172.32.255.255 	169.254.0.0 – 169.254.0.16  APIPA
+Class C 192.0.0.0 – 223.255.255.255	192.168.0.0 192.168.255.255
+Class D 224.0.0.0 – 239.255.255.255
+Class E 240.0.0.0 – 255.255.255.255
+
+ip address, port, protocal tcp udp
+
+
+http
