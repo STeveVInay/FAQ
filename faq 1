@@ -9,6 +9,7 @@ smtp 25
 dhcp 67,68
 dns 53
 http 80
+https 443
 
 ip address 0-255			private				
 Class A 0.0.0.0 - 127.255.255.255 	10.0.0.0 10.255.255.255 	127.0.0.1 loopback
@@ -21,3 +22,29 @@ ip address, port, protocal tcp udp
 
 
 http 
+
+Technically be prepared on basics of OSI Layers, TCP/IP(How packet flows on the network, 3 way handshake, TCP Flags, SYN flood attack), HTTP/HTTPS(headers, methods, caching, cookies), DNS(work flow, types of DNS, Resolution, Records, Zones, Notify) concepts
+ 
+Since the nature of the role you have applied would require you to take care of DDoS & DoS attacks and OWASP Top 10 attacks just go through what they are and how they occur, how to secure/prevent such attacks so that they know you have put an effort in knowing what those concepts are.
+ 
+HTTP
+What is HTTP?
+Difference between HTTP 1.0 and HTTP 2.0
+What is HTTP Request & Response Flow?
+What are the various HTTP Status Codes and their Use cases?
+What are the various HTTP Methods and their Use cases?
+What are the various HTTP Headers?
+Describe how Caching is done in HTTP.
+What are HTTP Cookies and their Use Cases?
+What is SSL Handshake?
+ 
+DNS 
+What is DNS
+Why DNS
+DNS Overview (Hierarchical flow)
+DNS Resolution
+DNS Records
+Types of Name Servers
+Zones
+Types of Zone Transfers
+DNS Notify
